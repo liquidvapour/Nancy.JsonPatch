@@ -1,6 +1,6 @@
 namespace Nancy.JsonPatch.Models
 {
-    internal class JsonPatchOperation
+    public class JsonPatchOperation
     {
         public JsonPatchOpCode Op { get; set; }
         public string Path { get; set; }

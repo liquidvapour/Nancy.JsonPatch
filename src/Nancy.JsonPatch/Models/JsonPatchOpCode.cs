@@ -1,6 +1,6 @@
 namespace Nancy.JsonPatch.Models
 {
-    internal enum JsonPatchOpCode
+    public enum JsonPatchOpCode
     {
         add,
         remove,
